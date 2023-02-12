@@ -393,7 +393,7 @@
     --section-title-margin: 0;
     --section-tagline-margin: 0;
     --section-title-color: var(--color-black);
-    
+
     --section-padding: 5rem 0;
     --section-header-padding: 0 0 3rem;
     --section-body-padding: 0 0 3rem;
@@ -485,6 +485,7 @@ a:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
+    margin: var(--section-tagline-margin);
 }
 
 .container {
